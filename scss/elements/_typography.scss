@@ -1,29 +1,29 @@
-/**
-  * 放些排版相关的样式
-  */
+/*------------------------------------*\
+  放些排版相关的样式
+\*------------------------------------*/
 .v-application {
-  .display-4 {
+  .h-1 {
     font-size: map-deep-get($headings, "h1", "size") !important;
     font-weight: map-deep-get($headings, "h1", "weight");
     line-height: map-deep-get($headings, "h1", "line-height");
     letter-spacing: map-deep-get($headings, "h1", "letter-spacing") !important;
     font-family: map-deep-get($headings, "h1", "font-family") !important;
   }
-  .display-3 {
+  .h-2 {
     font-size: map-deep-get($headings, "h2", "size") !important;
     font-weight: map-deep-get($headings, "h2", "weight");
     line-height: map-deep-get($headings, "h2", "line-height");
     letter-spacing: map-deep-get($headings, "h2", "letter-spacing") !important;
     font-family: map-deep-get($headings, "h2", "font-family") !important;
   }
-  .display-2 {
+  .h-3 {
     font-size: map-deep-get($headings, "h3", "size") !important;
     font-weight: map-deep-get($headings, "h3", "weight");
     line-height: map-deep-get($headings, "h3", "line-height");
     letter-spacing: map-deep-get($headings, "h3", "letter-spacing") !important;
     font-family: map-deep-get($headings, "h3", "font-family") !important;
   }
-  .display-1 {
+  .h-4 {
     font-size: map-deep-get($headings, "h4", "size") !important;
     font-weight: map-deep-get($headings, "h4", "weight");
     line-height: map-deep-get($headings, "h4", "line-height");

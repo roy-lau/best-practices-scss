@@ -1,0 +1,36 @@
+
+/*------------------------------------*\
+  Scrollbar
+\*------------------------------------*/
+ @mixin scroll-bar($theme) {
+  // $--scrollbar-thumb-background: #b4bccc;
+  // $--scrollbar-track-background: #fff;
+
+  &::-webkit-scrollbar {
+    z-index: 11;
+    width: 6px;
+
+    &:horizontal {
+      height: 6px;
+    }
+
+    &-thumb {
+      border-radius: 5px;
+      width: 6px;
+      background: map-deep-get($theme, 'scrollbar', 'thumb');
+    }
+
+    &-corner {
+      background: map-deep-get($theme, 'scrollbar', 'track');
+    }
+
+    &-track {
+      background: map-deep-get($theme, 'scrollbar', 'track');
+
+      &-piece {
+        background: map-deep-get($theme, 'scrollbar', 'track');
+        width: 6px;
+      }
+    }
+  }
+}

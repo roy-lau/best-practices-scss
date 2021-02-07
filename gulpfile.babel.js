@@ -19,7 +19,7 @@ const paths = {
     dest: 'dist/views'
   },
   styles: {
-    src: 'scss/main.scss',
+    src: 'scss/**/*.scss',
     dest: 'dist/css/'
   },
   scripts: {

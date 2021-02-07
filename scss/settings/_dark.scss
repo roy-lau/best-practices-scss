@@ -139,6 +139,10 @@ $material-dark: map-deep-merge(
     'color-picker': (
       'checkerboard': rgba(map-get($shades, 'white'), 0.12)
     ),
+    'scrollbar': (
+      'thumb': map-get($grey, 'darken-2'),
+      'track': map-get($shades, 'white')
+    ),
     'bg-color': #303030,
     'fg-color': map-get($shades, 'white'),
     'text-color': map-get($shades, 'white'),
